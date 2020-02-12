@@ -4,6 +4,8 @@
 @letra-azul: #1913a2;
 @color-num: #ff0000;
 @bg-ros: #fd9a98;
+@bg-amarillo: #fecb00;
+@bg-verde: #1fca21;
 
 *{
     margin:0;
@@ -17,13 +19,11 @@
 ul{
     padding: 0;
     display: inline-block;
-
 }
 
 li{
     list-style-type: none;
     text-align: center;
-
 }
 
 h2{
@@ -49,22 +49,46 @@ main{
 
         li {
             .cajita;
-
-        }
+       }
 
     }
     .horizontales{
         display: inline-block;
     }
     .azules{
-        .azu{
-            background-color: @azul;
-            .cajita;
-        }
+        display: inline-block;
     }
 
+    .azu{
+        background-color: @azul;
+        .cajita;
+    }
     .ros{
         background-color: @bg-ros;
         .cajita;
+    }
+    .ama{
+        .cajita;
+        background-color: @bg-amarillo;
+    }
+    .ver{
+        .cajita;
+        background-color: @bg-verde;
+        display: inline-block;
+    }
+    .rojo{
+        color: @color-num;
+        display: inline-block;
+        width: 65px;
+        text-align: center;
+        margin-left: 86px;
+    }
+
+    footer{
+        margin-top: 25px;
+    }
+
+    .verde{
+        margin-left: 50px;
     }
 }

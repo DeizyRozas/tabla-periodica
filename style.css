@@ -40,7 +40,10 @@ main .numeros li {
 main .horizontales {
   display: inline-block;
 }
-main .azules .azu {
+main .azules {
+  display: inline-block;
+}
+main .azu {
   background-color: #689bff;
   width: 60px;
   height: 60px;
@@ -51,4 +54,30 @@ main .ros {
   width: 60px;
   height: 60px;
   margin: 1px 2px;
+}
+main .ama {
+  width: 60px;
+  height: 60px;
+  margin: 1px 2px;
+  background-color: #fecb00;
+}
+main .ver {
+  width: 60px;
+  height: 60px;
+  margin: 1px 2px;
+  background-color: #1fca21;
+  display: inline-block;
+}
+main .rojo {
+  color: #ff0000;
+  display: inline-block;
+  width: 65px;
+  text-align: center;
+  margin-left: 86px;
+}
+main footer {
+  margin-top: 25px;
+}
+main .verde {
+  margin-left: 50px;
 }
