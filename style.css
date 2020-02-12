@@ -1,0 +1,24 @@
+/*variables*/
+.cajita {
+  width: 30px;
+  height: 50px;
+  font-size: 16px;
+}
+main {
+  background-color: #eeeeee;
+}
+main .numeros {
+  list-style-type: none;
+  display: inline-block;
+  color: #ff0000;
+}
+main .numeros li {
+  width: 30px;
+  height: 50px;
+  font-size: 16px;
+}
+main .azules li {
+  width: 30px;
+  height: 50px;
+  font-size: 16px;
+}
