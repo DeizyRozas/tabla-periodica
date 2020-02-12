@@ -2,13 +2,38 @@
 @bg-fondo: #eeeeee;
 @azul: #689bff;
 @letra-azul: #1913a2;
-@letra-num: #ff0000;
+@color-num: #ff0000;
+@bg-ros: #fd9a98;
 
-
+*{
+    margin:0;
+}
 .cajita{
-    width: 30px;
-    height: 50px;
-    font-size: 16px;
+    width: 60px;
+    height: 60px;
+    margin: 1px 2px;
+}
+
+ul{
+    padding: 0;
+    display: inline-block;
+
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 18px;
+    margin: 0;
+    color: @letra-azul;
+}
+
+p{
+    margin:0
 }
 
 main{
@@ -19,7 +44,8 @@ main{
 
         list-style-type: none;
         display: inline-block;
-        color: @letra-num;
+        color: @color-num;
+        vertical-align: bottom;
 
         li {
             .cajita;
@@ -27,11 +53,18 @@ main{
         }
 
     }
+    .horizontales{
+        display: inline-block;
+    }
     .azules{
-        li{
-            .cajita
+        .azu{
+            background-color: @azul;
+            .cajita;
         }
+    }
 
-
+    .ros{
+        background-color: @bg-ros;
+        .cajita;
     }
 }

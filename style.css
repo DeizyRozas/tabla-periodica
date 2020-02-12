@@ -1,8 +1,27 @@
 /*variables*/
+* {
+  margin: 0;
+}
 .cajita {
-  width: 30px;
-  height: 50px;
-  font-size: 16px;
+  width: 60px;
+  height: 60px;
+  margin: 1px 2px;
+}
+ul {
+  padding: 0;
+  display: inline-block;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+}
+h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #1913a2;
+}
+p {
+  margin: 0;
 }
 main {
   background-color: #eeeeee;
@@ -11,14 +30,25 @@ main .numeros {
   list-style-type: none;
   display: inline-block;
   color: #ff0000;
+  vertical-align: bottom;
 }
 main .numeros li {
-  width: 30px;
-  height: 50px;
-  font-size: 16px;
+  width: 60px;
+  height: 60px;
+  margin: 1px 2px;
 }
-main .azules li {
-  width: 30px;
-  height: 50px;
-  font-size: 16px;
+main .horizontales {
+  display: inline-block;
+}
+main .azules .azu {
+  background-color: #689bff;
+  width: 60px;
+  height: 60px;
+  margin: 1px 2px;
+}
+main .ros {
+  background-color: #fd9a98;
+  width: 60px;
+  height: 60px;
+  margin: 1px 2px;
 }
