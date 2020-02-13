@@ -6,14 +6,13 @@
   width: 60px;
   height: 60px;
   margin: 1px 2px;
+  list-style-type: none;
+  text-align: center;
 }
 ul {
   padding: 0;
   display: inline-block;
-}
-li {
-  list-style-type: none;
-  text-align: center;
+  margin-right: -3px;
 }
 h2 {
   font-size: 18px;
@@ -26,20 +25,26 @@ p {
 }
 main {
   background-color: #eeeeee;
+  width: 1240px;
+  margin: 0 auto;
 }
-main .numeros {
-  list-style-type: none;
-  display: inline-block;
-  color: #ff0000;
-  vertical-align: bottom;
-}
-main .numeros li {
+main .numeros1 li {
   width: 60px;
   height: 60px;
   margin: 1px 2px;
+  list-style-type: none;
+  text-align: center;
+  color: #ff0000;
 }
 main .horizontales {
+  width: 60px;
+  height: 60px;
+  margin: 1px 2px;
+  list-style-type: none;
+  text-align: center;
   display: inline-block;
+  margin: 1px 0;
+  color: #ff0000;
 }
 main .azules {
   display: inline-block;
@@ -49,25 +54,34 @@ main .azu {
   width: 60px;
   height: 60px;
   margin: 1px 2px;
+  list-style-type: none;
+  text-align: center;
 }
 main .ros {
   background-color: #fd9a98;
   width: 60px;
   height: 60px;
   margin: 1px 2px;
+  list-style-type: none;
+  text-align: center;
 }
 main .ama {
   width: 60px;
   height: 60px;
   margin: 1px 2px;
+  list-style-type: none;
+  text-align: center;
   background-color: #fecb00;
 }
 main .ver {
   width: 60px;
   height: 60px;
   margin: 1px 2px;
+  list-style-type: none;
+  text-align: center;
   background-color: #1fca21;
   display: inline-block;
+  margin: 1px 0;
 }
 main .rojo {
   color: #ff0000;

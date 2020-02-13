@@ -14,16 +14,14 @@
     width: 60px;
     height: 60px;
     margin: 1px 2px;
+    list-style-type: none;
+    text-align: center;
 }
 
 ul{
     padding: 0;
     display: inline-block;
-}
-
-li{
-    list-style-type: none;
-    text-align: center;
+    margin-right: -3px;
 }
 
 h2{
@@ -40,22 +38,21 @@ p{
 main{
 
     background-color: @bg-fondo;
+    width: 1240px;
+    margin: 0 auto;
 
-    .numeros{
-
-        list-style-type: none;
-        display: inline-block;
+    .numeros1 li{
+        .cajita;
         color: @color-num;
-        vertical-align: bottom;
-
-        li {
-            .cajita;
-       }
 
     }
     .horizontales{
+        .cajita;
         display: inline-block;
+        margin: 1px 0;
+        color: @color-num;
     }
+
     .azules{
         display: inline-block;
     }
@@ -76,6 +73,7 @@ main{
         .cajita;
         background-color: @bg-verde;
         display: inline-block;
+        margin: 1px 0;
     }
     .rojo{
         color: @color-num;
